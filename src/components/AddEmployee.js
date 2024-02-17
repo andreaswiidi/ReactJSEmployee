@@ -34,45 +34,53 @@ const AddEmployee = () => {
                             <input
                                 type="text"
                                 className="input"
+                                name="firstName"
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
                                 placeholder="First Name"
+                                required
                             />
                         </div>
                     </div>
-                    <div className="field">
+                    <div className="field" >
                         <label className="label">LastName</label>
                         <div className="control">
                             <input
                                 type="text"
                                 className="input"
+                                name="lastName"
                                 value={lastName}
                                 onChange={(e) => setLastName(e.target.value)}
                                 placeholder="Last Name"
+                                required
                             />
                         </div>
                     </div>
-                    <div className="field">
+                    <div className="field" >
                         <label className="label">Email</label>
                         <div className="control">
                             <input
                                 type="text"
                                 className="input"
+                                name="Email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Email"
+                                required
                             />
                         </div>
                     </div>
-                    <div className="field">
+                    <div className="field" >
                         <label className="label">PhoneNumber</label>
                         <div className="control">
                             <input
                                 type="text"
                                 className="input"
+                                name="phoneNumber"
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                                 placeholder="phoneNumber"
+                                required
                             />
                         </div>
                     </div>
